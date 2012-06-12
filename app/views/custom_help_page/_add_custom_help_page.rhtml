@@ -1,0 +1,5 @@
+<%  # Custom help page plugin for Chiliproject
+    # Copyright (C) 2012  Arnauld NYAKU
+%>
+<% url = Setting.available_settings.has_key?("plugin_chiliproject_custom_help_page") ? Setting.plugin_chiliproject_custom_help_page["custom_help_page"] : "http://" + Setting.host_name + "/" %>
+<%= javascript_tag("changeHelpUrl('#{url}');") %>

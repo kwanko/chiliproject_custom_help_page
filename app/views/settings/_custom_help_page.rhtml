@@ -1,0 +1,10 @@
+<%  # Custom help page plugin for Chiliproject
+    # Copyright (C) 2012  Arnauld NYAKU
+%>
+
+<p>
+    <%= label_tag 'settings[custom_help_page]', l(:custom_help_page) %>
+    <%= text_field_tag 'settings[custom_help_page]', @settings['custom_help_page'], { :size => 70 } %>
+    <em><%= l(:label_example) %>: <%= "http://" + Setting.host_name + "/" %></em>
+</p>
+
