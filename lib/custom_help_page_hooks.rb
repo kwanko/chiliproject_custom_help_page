@@ -1,3 +1,4 @@
+#-- encoding: UTF-8
 # Custom help page plugin for Chiliproject
 # Copyright (C) 2012  Arnauld NYAKU
 

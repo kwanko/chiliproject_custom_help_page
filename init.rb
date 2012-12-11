@@ -1,5 +1,7 @@
+#-- encoding: UTF-8
 # Custom help page plugin for Chiliproject
-# Copyright (C) 2012  Arnauld NYAKU
+# Copyright (C) 2012  C2B NETAFFILIATION SA
+# Author: Arnauld NYAKU
 
 require 'redmine'
 
@@ -13,7 +15,7 @@ Redmine::Plugin.register :chiliproject_custom_help_page do
   name 'Chiliproject Custom help page plugin'
   author 'Arnauld NYAKU'
   description 'This is a custom help page plugin for Chiliproject'
-  version '0.0.1'
+  version '1.0.0'
   url ''
   author_url 'mailto:arnauld.nyaku@c2bsa.com'
 
